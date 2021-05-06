@@ -1,7 +1,7 @@
 import java.util.Random;
 import java.util.Scanner;
 
-public class App {
+public class SPS {
     int totalMatchs=0,wins=0,loss=0 ,themes=1;
 
     int introdution(){
@@ -164,7 +164,7 @@ public class App {
          System.out.flush();
     }
     public static void main(String[] args) throws Exception {
-        App objApp=new App();
+        SPS objApp=new SPS();
         int option;
 
         option = objApp.introdution();
